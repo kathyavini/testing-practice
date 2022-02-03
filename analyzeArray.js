@@ -1,4 +1,4 @@
-function analyzeArray(testArray) {
+export default function analyzeArray(testArray) {
   const length = testArray.length;
 
   let sum = 0;
@@ -26,5 +26,3 @@ function analyzeArray(testArray) {
     length,
   };
 }
-
-module.exports = analyzeArray;

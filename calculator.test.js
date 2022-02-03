@@ -1,4 +1,4 @@
-const calculator = require('./calculator');
+import calculator from './calculator';
 
 test('basic case', () => {
   expect(calculator.add(2, 2)).toBe(4);

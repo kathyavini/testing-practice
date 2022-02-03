@@ -1,4 +1,4 @@
-function caesarCipher(string, shift) {
+export default function caesarCipher(string, shift) {
   //   let cipher = '';
   const stringArray = [...string];
 
@@ -46,5 +46,3 @@ function shiftLetter(character, shift) {
 const alphabet = 'abcdefghijklmnopqrstuvwxyz';
 const lowerCaseAlphabet = [...alphabet];
 const upperCaseAlphabet = [...alphabet.toUpperCase()];
-
-module.exports = caesarCipher;

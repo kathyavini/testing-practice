@@ -1,4 +1,4 @@
-const capitalize = require('./capitalize');
+import capitalize from './capitalize';
 
 test('Basic case', () => {
   expect(capitalize('human')).toBe('Human');
